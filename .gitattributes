@@ -1,0 +1,7 @@
+# The page is generated, not hand-edited: scripts/build-privacy-page.mjs in the
+# verso repo renders docs/privacy-policy.md into index.html and writes it here.
+# That generator emits LF. Without this file, git stores CRLF on Windows, so
+# every regeneration shows up as a whole-file diff and the one line that
+# actually changed is invisible in review — on a legal document whose entire
+# failure mode is a change nobody noticed.
+* text=auto eol=lf
